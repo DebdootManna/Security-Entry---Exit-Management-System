@@ -1,0 +1,29 @@
+# Face Re-Identification System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Computer Vision & Deep Learning
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+scipy>=1.11.0
+
+# Face Detection
+ultralytics>=8.0.0
+
+# Face Alignment
+mtcnn>=0.1.1
+
+# Face Recognition & Encoding
+deepface>=0.0.79
+tensorflow>=2.13.0
+
+# Efficient Similarity Search
+faiss-cpu>=1.7.4
+# For GPU acceleration, use: faiss-gpu>=1.7.4
+
+# Additional utilities
+tf-keras>=2.15.0
+
+# Optional: For better performance on Apple Silicon
+# tensorflow-macos>=2.13.0
+# tensorflow-metal>=1.0.0
